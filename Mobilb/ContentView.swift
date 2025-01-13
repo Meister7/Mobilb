@@ -222,7 +222,7 @@ struct ContentView: View {
                     .padding(.top, 25)
                     Spacer()
                     }
-                WebView(urlString: "https://www.freeprivacypolicy.com/live/ef5c1697-4bc2-48c1-bd72-0802f2e03908")
+                WebView(urlString: "https://www.freeprivacypolicy.com/live/df0ea277-744c-40f4-85ef-7baa025eeb61")
                 }
         case .typeMobile:
             CustomWebView(selectedTexture: images[currentImageIndex], isSoundMuted: $isSoundMuted, currentScreen: $screenState)
